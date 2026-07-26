@@ -1,9 +1,24 @@
 aid: david-energy
 name: David Energy
-description: David Energy is a company surfaced as a portfolio company of union-square-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: David Energy is a clean-energy technology company and licensed electricity retailer that
+  installs free plug-in smart batteries for homes and businesses. Its software charges batteries when
+  grid power is cheap and discharges them during peak-price periods to lower customers' monthly utility
+  bills, alongside bill-monitoring and thermostat-management advisory tools. Backed by Union Square
+  Ventures, David Energy operates in the New York City market with a stated mission of powering the grid
+  on 100% clean energy and shifting the balance of energy control from institutions toward consumers.
 url: https://raw.githubusercontent.com/api-evangelist/david-energy/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/652fd7aaf6aaba80a29b2207/69e151b83b67e2dd2a288276_Updated%20hero.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Energy
+- Clean Energy
+- Energy Storage
+- Batteries
+- Electricity
+- Utilities
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +46,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.davidenergy.com
+- type: GettingStarted
+  url: https://www.davidenergy.com/getting-started-for-business
+- type: Support
+  url: https://www.davidenergy.com/support
+- type: Blog
+  url: https://www.davidenergy.com/blog-business
+- type: TermsOfService
+  url: https://www.davidenergy.com/terms-of-service
+- type: Careers
+  url: https://www.davidenergy.com/careers
+- type: DomainSecurity
+  url: security/david-energy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
