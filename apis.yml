@@ -7,6 +7,17 @@ description: David Energy is a clean-energy technology company and licensed elec
   Ventures, David Energy operates in the New York City market with a stated mission of powering the grid
   on 100% clean energy and shifting the balance of energy control from institutions toward consumers.
 url: https://raw.githubusercontent.com/api-evangelist/david-energy/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
